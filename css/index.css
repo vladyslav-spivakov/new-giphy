@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, header, footer, main, p, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+}
+
+header .logo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #414567;
+    justify-content: space-around;
+}
+
+header .logo-div p {
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+header .logo-div img {
+    max-width: 196px;
+    min-width: 196px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+@media (min-width:505px) {
+    header .logo-div {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    header .logo-div img {
+        margin-top: 10px;
+    }
+}
+@media (min-width:1024px) {
+    header .logo-div p, header .logo-div img{
+        margin: 10px 10px 10px 10px;
+    }
+    header .logo-div {
+        justify-content: space-between;
+    }
+}
+
+main .search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+main .search-form label{
+    justify-self: center;
+    margin:0;
+}
+main .search-form p{
+    font-size: 1.5rem;
+    margin: 0%;
+}
+
+main .search-form #search, main .search-form .btn {
+    width: 256px;
+}
+
+@media (min-width:768px) {
+    main .search-form {
+        flex-direction: row;
+        justify-content: center ;
+    }
+    main .search-form .btn{
+        width: 128px;
+    }
+    main .search-form #search {
+        width: 256px;
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+main .out {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+} 
+
+main .out img{
+    width: 319px;
+    border: 1px solid #414567;   
+}
+
+#gif-h {
+    text-align: center;
+    font-size: 1.5rem; 
+    margin: 10px;
+    color: white;
+}
+
+.gif-h-div {
+    background-color: #414567;
+}
+
+main .qif-out .out p {
+    width: 319px;
+    color: #414567;
+    line-height: 0.9rem;
+    font-size: 0.5rem;
+}
+
+main .search-status {
+    color: tomato;
+    text-align: center  ;
+}
+
+.btnTrendDiv {
+    display: flex;
+    justify-content: center;
+}
