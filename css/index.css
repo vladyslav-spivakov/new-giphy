@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+a { 
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    max-width: 319px;
+}
+
 
 html, body, header, footer, main, p, form, button {
     margin: 0;
@@ -15,10 +24,7 @@ main,header,footer {
     max-width:980px;
     margin: auto;
 }
-
-p {
-    font-family: 'Kanit', sans-serif;
-}
+    
 
 header .logo-div {
     display: flex;
@@ -102,7 +108,7 @@ main .out {
 } 
 
 main .out img{
-    width: 319px;
+    width: 317px;
     border: 1px solid #414567;   
 }
 
@@ -114,15 +120,20 @@ main .out img{
 }
 
 .gif-h-div {
+    display: flex;
+    justify-content: space-around;
     background-color: #414567;
+    padding: 10px 0;
+    margin: 10px 0;
 }
 
 main .qif-out .out p {
-    width: 319px;
+    width: 317px;
     color: #414567;
     line-height: 0.9rem;
-    font-size: 0.5rem;
+    font-size: 0.5rem;  
 }
+
 
 main .search-status {
     color: tomato;
@@ -132,4 +143,30 @@ main .search-status {
 .btnTrendDiv {
     display: flex;
     justify-content: center;
+}
+
+.out a p {
+    text-decoration: none;
+}
+
+.out a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid transparent;
+}
+
+.out a:hover{
+    cursor: pointer;
+    border: 3px solid #414567;
+}
+
+figure {
+    display: flex !important; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.out a {
+    text-decoration: none;
 }

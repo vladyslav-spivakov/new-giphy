@@ -6,6 +6,8 @@ for (let i = 0;i<3;i++){
     window['img'+i] = document.createElement("img");
     window['fc'+i] = document.createElement("p");
 }
+
+
 let figStatus = 'Trending';
 const API = "eay92FzWBaLBIs7IWm14L2zy2fczrCAc";
 document.addEventListener("DOMContentLoaded", init);
@@ -84,3 +86,4 @@ document.querySelector('form input[type=submit]').addEventListener("click", ev =
     }
 });
 }
+
